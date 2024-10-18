@@ -4409,6 +4409,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/cli-data-migrate@npm:8.4.0":
+  version: 8.4.0
+  resolution: "@redwoodjs/cli-data-migrate@npm:8.4.0"
+  dependencies:
+    "@redwoodjs/babel-config": "npm:8.4.0"
+    "@redwoodjs/project-config": "npm:8.4.0"
+    chalk: "npm:4.1.2"
+    dotenv-defaults: "npm:5.0.2"
+    execa: "npm:5.1.1"
+    fs-extra: "npm:11.2.0"
+    listr2: "npm:6.6.1"
+    terminal-link: "npm:2.1.1"
+    yargs: "npm:17.7.2"
+  bin:
+    up: ./dist/bin.js
+  checksum: 10c0/e30e0647d87f52d45926b826d3fa3c8b8f63b24f58cbbd97aa182f7776a8fab9c1fb0c525296b78ed316af92b3ed9bce482e9cd5e20385d16827c29b8bdae5ba
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/cli-helpers@npm:8.4.0":
   version: 8.4.0
   resolution: "@redwoodjs/cli-helpers@npm:8.4.0"
@@ -15132,6 +15151,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@redwoodjs/cli-data-migrate": "npm:8.4.0"
     "@redwoodjs/core": "npm:8.4.0"
     "@redwoodjs/project-config": "npm:8.4.0"
   languageName: unknown
